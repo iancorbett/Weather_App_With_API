@@ -1,0 +1,28 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 20%;
+    outline: 1px solid black;
+    padding: 10px;
+}
+
+.right {
+    width: 80%;
+    outline: 1px solid black;
+    padding: 10px;
+}
+
+#card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cards {
+    min-width: 20%;
+    min-height: 100px;
+    outline: 1px solid black;
+}
